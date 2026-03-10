@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "google-workspace": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "mcp-google-workspace"],
+      "env": {
+        "GOOGLE_OAUTH_CREDENTIALS": "/Users/antoineachach/.gauth.json"
+      }
+    }
+  }
+}
