@@ -86,6 +86,17 @@ Bonne pratique pour consolider les apprentissages sans effort.
 
 Fonctionne bien pour obtenir une analyse ciblée sans sur-expliquer. L'agent `morning-brief-optimizer` distingue automatiquement le signal du bruit et produit des actions actionnables.
 
+## Leçons apprises ce soir
+
+1. **Un projet utile peut démarrer en une soirée sans écrire une seule ligne de code.**
+   En connectant deux MCP servers (Gmail + Google Calendar), on a construit un vrai outil personnel — brief quotidien, analyse de priorités, page HTML — uniquement avec des prompts et des fichiers de config.
+
+2. **Les MCP servers transforment Claude en agent connecté à tes données réelles.**
+   Sans MCP, Claude répond à des questions générales. Avec MCP, il lit tes vrais emails, ton vrai calendrier, et raisonne sur ta situation concrète du jour.
+
+3. **La structure du projet compte autant que le code.**
+   `CLAUDE.md` donne la mémoire du projet, `NOTES.md` capitalise les apprentissages, `.mcp.json` déclare les outils. Ces fichiers font que le projet est reproductible et que chaque prochaine session repart de là où on s'est arrêtés.
+
 ## Agents personnalisés
 
 | Agent | Rôle | Comment l'invoquer |
